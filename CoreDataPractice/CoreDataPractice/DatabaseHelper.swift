@@ -47,4 +47,19 @@ class DatabaseHelper {
         }
         return students
     }
+    
+    func editstudent(studentData: [String: Any], atIndex: Int) {
+        var students: [Student] = getStudentData()
+        if students.count > atIndex {
+            students[atIndex].name = studentData["name"] as? String
+            students[atIndex].address = studentData["address"] as? String
+            students[atIndex].city = studentData["city"] as? String
+            students[atIndex].mobile = studentData["mobile"] as? String
+            do {
+                try context?.save()
+            } catch {
+                debugPrint("failed to edit data")
+            }
+        }
+    }
 }
