@@ -17,5 +17,10 @@ class ViewController: UIViewController {
         let dict: [String: Any] = ["name": txtfldName.text ?? "", "address": txtfldAddress.text ?? "", "city": txtfldCity.text ?? "", "mobile": txtfldMobile.text ?? ""]
         DatabaseHelper.sharedObject.save(object: dict )
     }
+    
+    @IBAction func btnShowListingTapped(_ sender: Any) {
+        guard let listingVC = storyboard?.instantiateViewController(withIdentifier: "ListingVC") else { return }
+        navigationController?.pushViewController(listingVC, animated: true)
+    }
 }
 

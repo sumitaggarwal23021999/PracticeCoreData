@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAA2F83228E9BB1800C3A33C /* ListingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA2F83128E9BB1800C3A33C /* ListingTVC.swift */; };
+		EAA2F83428E9BB2C00C3A33C /* ListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA2F83328E9BB2C00C3A33C /* ListingVC.swift */; };
 		EAECD51C28E97E72002B5504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAECD51B28E97E72002B5504 /* AppDelegate.swift */; };
 		EAECD51E28E97E72002B5504 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAECD51D28E97E72002B5504 /* SceneDelegate.swift */; };
 		EAECD52028E97E72002B5504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAECD51F28E97E72002B5504 /* ViewController.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EAA2F83128E9BB1800C3A33C /* ListingTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingTVC.swift; sourceTree = "<group>"; };
+		EAA2F83328E9BB2C00C3A33C /* ListingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingVC.swift; sourceTree = "<group>"; };
 		EAECD51828E97E72002B5504 /* CoreDataPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAECD51B28E97E72002B5504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAECD51D28E97E72002B5504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				EAECD53328E97F30002B5504 /* Student+CoreDataProperties.swift */,
 				EAECD53928E9813B002B5504 /* DatabaseHelper.swift */,
 				EAECD52128E97E72002B5504 /* Main.storyboard */,
+				EAA2F83128E9BB1800C3A33C /* ListingTVC.swift */,
+				EAA2F83328E9BB2C00C3A33C /* ListingVC.swift */,
 				EAECD52728E97E74002B5504 /* Assets.xcassets */,
 				EAECD52928E97E74002B5504 /* LaunchScreen.storyboard */,
 				EAECD52C28E97E74002B5504 /* Info.plist */,
@@ -162,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA2F83428E9BB2C00C3A33C /* ListingVC.swift in Sources */,
 				EAECD53528E97F30002B5504 /* Student+CoreDataProperties.swift in Sources */,
 				EAECD52028E97E72002B5504 /* ViewController.swift in Sources */,
+				EAA2F83228E9BB1800C3A33C /* ListingTVC.swift in Sources */,
 				EAECD51C28E97E72002B5504 /* AppDelegate.swift in Sources */,
 				EAECD53A28E9813B002B5504 /* DatabaseHelper.swift in Sources */,
 				EAECD51E28E97E72002B5504 /* SceneDelegate.swift in Sources */,
