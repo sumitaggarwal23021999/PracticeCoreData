@@ -73,12 +73,12 @@
 				EAECD51F28E97E72002B5504 /* ViewController.swift */,
 				EAECD53228E97F30002B5504 /* Student+CoreDataClass.swift */,
 				EAECD53328E97F30002B5504 /* Student+CoreDataProperties.swift */,
+				EAECD53928E9813B002B5504 /* DatabaseHelper.swift */,
 				EAECD52128E97E72002B5504 /* Main.storyboard */,
 				EAECD52728E97E74002B5504 /* Assets.xcassets */,
 				EAECD52928E97E74002B5504 /* LaunchScreen.storyboard */,
 				EAECD52C28E97E74002B5504 /* Info.plist */,
 				EAECD52428E97E72002B5504 /* CoreDataPractice.xcdatamodeld */,
-				EAECD53928E9813B002B5504 /* DatabaseHelper.swift */,
 			);
 			path = CoreDataPractice;
 			sourceTree = "<group>";
